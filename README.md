@@ -1,0 +1,2 @@
+# abaza
+Abaza language dictionaries
