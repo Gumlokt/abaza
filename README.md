@@ -1,2 +1,2 @@
 # abaza
-Abaza language dictionaries
+Orthograhpical dictionary of abaza language
