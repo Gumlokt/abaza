@@ -1,0 +1,238 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font awesome
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/v4-shims.scss';
+
+.navbar-laravel {
+    background-color: #fff;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 56px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 20px 15px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+
+/* Aorta 
+----------------------------------------------------------*/
+.slot {
+    width: 100%;
+    border: 1px solid red;
+    margin-bottom: 1em;
+}
+
+
+.primary-line {
+    color: blue;
+}
+
+.secondary-line {
+    margin-left: 2em;
+}
+
+// scroll suggestion list for jQuery autocomplete
+.ui-autocomplete {
+    max-height: 300px;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x:hidden;
+}
+
+/* Tabulova Nuria Tatlustanovna
+ * Табулова Нурья Татлустановна
+ * Orthographical dictionary of the Abaza language
+ * Орфографический словарь абазинского языка
+------------------------------------------------------------*/
+/* Words block **********************************************/
+/* word block */
+.tnt_wb {
+    margin-left: 0px;
+}
+
+/* homonym number */
+.tnt_hn {
+    font-weight: bold;
+    font-size: 18px;
+}
+/* homonym */
+.tnt_h {
+    font-weight: bold;
+    font-size: 18px;
+}
+/* endings */
+.tnt_e {
+    color: #343A44;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* plurals */
+.tnt_p {
+    color: #0047ab;
+    font-style: italic;
+}
+/* references */
+.tnt_r {
+    color: maroon;
+    font-style: italic;
+}
+/* borrowed flag (asterisk) from another lang */
+.tnt_b {
+    color: #f30;
+}
+/* borrowed languages */
+.tnt_bl {
+    color: #555;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: normal;
+}
+/* comments */
+.tnt_c {
+    color: #555;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: normal;
+}
+/* letter in comments */
+.tnt_l {
+    font-weight: bold;
+}
+
+
+
+/* Variations block **********************************************/
+/* variations */
+.tnt_v {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* variations block */
+.tnt_vb {
+    padding-left: 20px;
+}
+
+
+
+/* Samples block *************************************************/
+/* primary samples block */
+.tnt_psb {
+    margin-left: 40px;
+}
+
+/* primary samples */
+.tnt_ps {
+    color: navy;
+}
+
+/* alternatives */
+.tnt_alt {
+    color: #343A44;
+    // font-style: italic;
+}
+/* annotations */
+.tnt_ann {
+    color: #555;
+    font-style: italic;
+}
+/* answers */
+.tnt_ans {
+    color: #0047ab;
+}
+
+
+
+/* secondary samples block */
+.tnt_ssb {
+    // margin-top: 0.5rem;
+    margin-left: 60px;
+}
+/* secondary samples */
+.tnt_ss {
+    color: #0047ab;
+}
+
+
+
+/* For all samples in table */
+.tnt_tr {
+    vertical-align: top;
+}
+
+.tnt_tr:hover {
+    background-color: #f7f7fa;
+}
+
+.tnt_tr td {
+    padding: 0px 5px;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid #eee;
+}
+
+.tnt_tr td:hover {
+    border-left: 1px solid #f99;
+}
+
+
+
+
+
+
+
+
+.vbtugov, .mjkishmahov, .pilafishev, .neo, .nttabulova {
+    margin: 30px 40px;
+}
+
+.author {
+    font-style: italic;
+    text-align: right;
+    border-bottom: 1px dotted #FFC3BA;
+    color: #f00;
+    padding: 0px 10px 10px 10px;
+}
