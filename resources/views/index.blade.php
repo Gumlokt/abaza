@@ -8,7 +8,7 @@
         <link rel="icon" href="../../../../favicon.ico">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>Sticky Footer Navbar Template for Bootstrap</title>
+        <title>Parser for Orthographic dictionary of abaza language</title>
 
         <link href="{{ url('css/app.css') }}" rel="stylesheet" type="text/css">
         <link href="{{ url('assets/jquery-ui-1.12.1.custom/jquery-ui.min.css') }}" rel="stylesheet" type="text/css">
