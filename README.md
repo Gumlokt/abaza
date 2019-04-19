@@ -6,3 +6,5 @@ Erizhev U. D., Tabulova N. T., Tugov V. B.
 
 Executive editor:
 Kishmahov M. J.
+
+Cherkessk, 1983
